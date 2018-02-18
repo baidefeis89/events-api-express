@@ -1,0 +1,22 @@
+{
+  "name": "practicaeventosexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Galan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.4.0",
+    "jsonwebtoken": "^8.1.1",
+    "md5": "^2.2.1",
+    "mysql": "^2.15.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  }
+}
