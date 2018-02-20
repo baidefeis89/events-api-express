@@ -14,7 +14,7 @@ const secreto = 'DespliegueNode';
 
 
 passport.use(new Strategy({secretOrKey: secreto, jwtFromRequest:
-            ExtractJwt.fromAuthHeader()}, (payload, done) => {
+            ExtractJwt.fromAuthHeaderAsBearerToken()}, (payload, done) => {
     if (payload.id) {
         return done(null, {id: payload.id});
     } else {
